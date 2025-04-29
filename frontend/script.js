@@ -8,8 +8,8 @@ let gallerySlider = new Swiper('.gallery-slider', {
      nextEl: '.swiper-button-next',
      prevEl: '.swiper-button-prev',
   },
-  effect: 'coverflow',
   loop: true,
+  effect: 'coverflow',
   centeredSlides: true,
   slidesPerView: 3,
   coverflowEffect: {
@@ -23,7 +23,7 @@ let gallerySlider = new Swiper('.gallery-slider', {
 
 
 // slider
-let swiper = new Swiper(".mySwiper", {
+let swiper = new Swiper(".fresh", {
 slidesPerView: 1,
 spaceBetween: 10,
   pagination: {
